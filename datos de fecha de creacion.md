@@ -1,0 +1,12 @@
+para datos  
+
+datos de fecha de creación 
+
+pasar de https://www.facebook.com/groups/1519899931989922 a https://www.facebook.com/groups/1519899931989922/about 
+
+
+<div role="listitem" class="html-div xjyslct xjbqb8w x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1rg5ohu xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 xh8yej3"><div class="html-div xdj266r x14z9mp xat24cr x1lziwak xyri2b x1c1uobl x78zum5 xdt5ytf xwib8y2 x1y1aw1k"><div class="x9f619 x1ja2u2z x78zum5 x2lah0s x1n2onr6 x1nhvcw1 x1cy8zhl xozqiw3 x1q0g3np xv54qhq xf7dkkf x18d9i69 xexx8yu x1ws5yxj xw01apr x4cne27 xifccgj"><div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w xeuugli x1icxu4v x25sj25 x10b6aqq x1yrsyyn"><svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" aria-hidden="true" class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="--x-color: var(--placeholder-icon);"><path d="M.5 10a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zm10.25-4.25a.75.75 0 0 0-1.5 0V10c0 .199.079.39.22.53l2.5 2.5a.75.75 0 1 0 1.06-1.06l-2.28-2.28V5.75z"></path></svg></div><div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x193iq5w xeuugli x1r8uery x1iyjqo2 xs83m0k xamitd3 x1icxu4v x25sj25 x10b6aqq x1yrsyyn"><div class="x78zum5 xdt5ytf xz62fqu x16ldp7u"><div class="xu06os2 x1ok221b"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h" dir="auto"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lkfr7t x1lbecb7 xk50ysn xzsf02u">Historial</span></span></div><div class="xu06os2 x1ok221b"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x676frb x1nxh6w3 x1sibtaa xo1l8bm xi81zsa x1yc453h" dir="auto"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1nxh6w3 x1sibtaa xo1l8bm xzsf02u">Grupo creado el 14 de enero de 2025 <div aria-label="Ver más historial del grupo" class="x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xkrqix3 x1sur9pj xzsf02u x1s688f" role="button" tabindex="0">Ver más</div></span></span></div></div></div></div></div></div>
+
+dato extraido: Grupo creado el 14 de enero de 2025
+
+

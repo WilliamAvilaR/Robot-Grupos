@@ -1,0 +1,77 @@
+[21:21:11 INF] Iniciando Scraper Worker...
+[21:21:11 INF] Registrando extractor para patrón: facebook.com/groups
+[21:21:11 INF] Worker iniciado - Procesando grupos de Facebook
+[21:21:11 INF] Application started. Press Ctrl+C to shut down.
+[21:21:11 INF] === INICIANDO AUTENTICACIÓN ===
+[21:21:11 INF] Hosting environment: Development
+[21:21:11 INF] Content root path: C:\Users\USUARIO\source\repos\Robotsocialmedia\src\Scraper.Worker
+[21:21:11 INF] Verificando autenticación para accountId: default
+[21:21:11 INF] Inicializando Playwright...
+[21:21:12 INF] Creando contexto persistente para accountId: default en: C:\ScraperData\state\default\userData
+[21:21:13 INF] Intentando migrar storage state previo desde: C:\ScraperData\state\default\storageState.json (Tamaño: 4065 bytes) al perfil persistente
+[21:21:13 INF] Cookies migradas exitosamente al perfil persistente (12 cookies)
+[21:21:13 INF] Contexto persistente creado para accountId: default. El perfil se guardará automáticamente en: C:\ScraperData\state\default\userData
+[21:21:13 INF] Navegando a: https://www.facebook.com
+[21:21:16 INF] Verificando estado de autenticación en: https://www.facebook.com/
+[21:21:17 INF] Usuario autenticado
+[21:21:17 INF] Usuario ya autenticado
+[21:21:17 INF] Navegando al feed para verificar cookies de sesión...
+[21:21:17 INF] Navegando a: https://www.facebook.com
+[21:21:21 INF] Guardando storage state en: C:\ScraperData\state\default\storageState.json
+[21:21:21 INF] Storage state guardado exitosamente en: C:\ScraperData\state\default\storageState.json (Tamaño: 4116 bytes)
+[21:21:22 INF] Guardando storage state en: C:\ScraperData\state\default\storageState.json
+[21:21:22 INF] Storage state guardado exitosamente en: C:\ScraperData\state\default\storageState.json (Tamaño: 4116 bytes)
+[21:21:23 INF] Guardando storage state en: C:\ScraperData\state\default\storageState.json
+[21:21:23 INF] Storage state guardado exitosamente en: C:\ScraperData\state\default\storageState.json (Tamaño: 4116 bytes)
+[21:21:23 INF] === AUTENTICACIÓN COMPLETADA ===
+[21:21:23 INF] === INICIANDO PROCESAMIENTO DE GRUPOS ===
+[21:21:23 INF] Iniciando procesamiento de grupos de Facebook
+[21:21:24 INF] Se encontraron 2 grupos activos
+[21:21:24 INF] Se encontraron 2 grupos para procesar
+[21:21:24 INF] [1/2] Procesando grupo IdGrupo=4, URL=https://www.facebook.com/groups/1207184099706573/
+[21:21:24 INF] Navegando a: https://www.facebook.com/groups/1207184099706573/
+[21:21:33 INF] Extraído grupo - Nombre: Tena Clasificados (Compras, Ventas y Arriendos ), Imagen: https://scontent.fbog2-5.fna.fbcdn.net/v/t39.30808-6/434812116_7412267258835601_3974401821160118062_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2285d6&_nc_ohc=HUeSxZt5KgoQ7kNvwFvgDVO&_nc_oc=AdnSz6D6zhU5rnqIh0pvSIgOwl4uW7JrpoF75jvPnfsChEX6UtUqJKEdsJZZThxYSOk&_nc_zt=23&_nc_ht=scontent.fbog2-5.fna&_nc_gid=-VWz7v9p-IzCV4hGFksr5A&oh=00_AfrzWYjqET2Lc5jb3zF3UZZHvs_jNQTkiOMwwjR1s3NYAg&oe=697B37D0
+[21:21:33 INF] Navegando a página About para extraer fecha de creación: https://www.facebook.com/groups/1207184099706573/about
+[21:21:37 INF] Fecha parseada exitosamente: 2021-07-30T00:00:00Z desde texto: 30 de julio de 2021
+[21:21:37 INF] Fecha de creación extraída: 2021-07-30T00:00:00Z
+[21:21:37 INF] Post count extraído: 13
+[21:21:37 INF] Navegando a página Members para extraer member count: https://www.facebook.com/groups/1207184099706573/members
+[21:21:37 INF] Nota: /members es la única página que requiere login estricto. Si muestra login, se omitirá esta métrica.
+[21:21:37 INF] Navegando a: https://www.facebook.com/groups/1207184099706573/members
+[21:21:41 INF] URL después de navegar a /members: https://www.facebook.com/groups/1207184099706573/people/?should_open_welcome_member_composer=1
+[21:21:41 WRN] La URL no contiene '/members' después de navegar. URL actual: https://www.facebook.com/groups/1207184099706573/people/?should_open_welcome_member_composer=1
+[21:21:41 INF] Esperando a que la página cargue (buscando elemento h2)...
+[21:21:42 INF] Página cargada: encontrados 4 elementos h2
+[21:21:44 INF] Member count encontrado en h2 (texto completo): 3944
+[21:21:44 INF] Member count extraído: 3944
+[21:21:44 INF] Grupo actualizado: IdGrupo=4, Nombre=Tena Clasificados (Compras, Ventas y Arriendos ), FechaCreacionFacebook=07/29/2021 19:00:00
+[21:21:44 INF] Grupo actualizado - IdGrupo=4, Nombre=Tena Clasificados (Compras, Ventas y Arriendos ), Imagen=https://scontent.fbog2-5.fna.fbcdn.net/v/t39.30808-6/434812116_7412267258835601_3974401821160118062_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2285d6&_nc_ohc=HUeSxZt5KgoQ7kNvwFvgDVO&_nc_oc=AdnSz6D6zhU5rnqIh0pvSIgOwl4uW7JrpoF75jvPnfsChEX6UtUqJKEdsJZZThxYSOk&_nc_zt=23&_nc_ht=scontent.fbog2-5.fna&_nc_gid=-VWz7v9p-IzCV4hGFksr5A&oh=00_AfrzWYjqET2Lc5jb3zF3UZZHvs_jNQTkiOMwwjR1s3NYAg&oe=697B37D0, FechaCreacion=2021-07-29T19:00:00Z
+[21:21:44 INF] Métrica guardada: IdGrupo=4, Clave=post_count, Valor=13, Fecha=01/25/2026 00:00:00
+[21:21:44 INF] Métrica post_count guardada: IdGrupo=4, Valor=13
+[21:21:44 INF] Métrica guardada: IdGrupo=4, Clave=member_count, Valor=3944, Fecha=01/25/2026 00:00:00
+[21:21:44 INF] Métrica member_count guardada: IdGrupo=4, Valor=3944
+[21:21:44 INF] Esperando 20 segundos antes del siguiente grupo...
+[21:22:04 INF] [2/2] Procesando grupo IdGrupo=5, URL=https://www.facebook.com/groups/820910638847838/
+[21:22:04 INF] Navegando a: https://www.facebook.com/groups/820910638847838/
+[21:22:12 INF] Extraído grupo - Nombre: Apulo Clasificados (Compras, Ventas y Arriendos ), Imagen: https://scontent.fbog2-3.fna.fbcdn.net/v/t39.30808-6/358143287_1315322012754055_7102811677799337199_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=102&ccb=1-7&_nc_sid=2285d6&_nc_ohc=L13IeVDpb3AQ7kNvwFYAIz2&_nc_oc=AdkDb3MnLiFaMd2Au89DRwl0U_RZp1WIbMRnlYqyBeUFJYZm6mc4w7LxNxrjtDgYzQw&_nc_zt=23&_nc_ht=scontent.fbog2-3.fna&_nc_gid=dW3Vg4xFAdsqvYPVwNWTSg&oh=00_Afp01GgD3yJLYRClqKtTnSBJI2cZqCJE_WqxCgq8t96aZA&oe=697B3B72
+[21:22:12 INF] Navegando a página About para extraer fecha de creación: https://www.facebook.com/groups/820910638847838/about
+[21:22:15 INF] Fecha parseada exitosamente: 2021-06-03T00:00:00Z desde texto: 3 de junio de 2021
+[21:22:15 INF] Fecha de creación extraída: 2021-06-03T00:00:00Z
+[21:22:15 INF] Post count extraído: 71
+[21:22:15 INF] Navegando a página Members para extraer member count: https://www.facebook.com/groups/820910638847838/members
+[21:22:15 INF] Nota: /members es la única página que requiere login estricto. Si muestra login, se omitirá esta métrica.
+[21:22:15 INF] Navegando a: https://www.facebook.com/groups/820910638847838/members
+[21:22:19 INF] URL después de navegar a /members: https://www.facebook.com/groups/820910638847838/members
+[21:22:19 INF] Esperando a que la página cargue (buscando elemento h2)...
+[21:22:19 INF] Página cargada: encontrados 6 elementos h2
+[21:22:21 INF] Member count encontrado con JavaScript: 10.536
+[21:22:21 INF] Member count extraído: 10.536
+[21:22:21 INF] Grupo actualizado: IdGrupo=5, Nombre=Apulo Clasificados (Compras, Ventas y Arriendos ), FechaCreacionFacebook=06/02/2021 19:00:00
+[21:22:21 INF] Grupo actualizado - IdGrupo=5, Nombre=Apulo Clasificados (Compras, Ventas y Arriendos ), Imagen=https://scontent.fbog2-3.fna.fbcdn.net/v/t39.30808-6/358143287_1315322012754055_7102811677799337199_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=102&ccb=1-7&_nc_sid=2285d6&_nc_ohc=L13IeVDpb3AQ7kNvwFYAIz2&_nc_oc=AdkDb3MnLiFaMd2Au89DRwl0U_RZp1WIbMRnlYqyBeUFJYZm6mc4w7LxNxrjtDgYzQw&_nc_zt=23&_nc_ht=scontent.fbog2-3.fna&_nc_gid=dW3Vg4xFAdsqvYPVwNWTSg&oh=00_Afp01GgD3yJLYRClqKtTnSBJI2cZqCJE_WqxCgq8t96aZA&oe=697B3B72, FechaCreacion=2021-06-02T19:00:00Z
+[21:22:21 INF] Métrica guardada: IdGrupo=5, Clave=post_count, Valor=71, Fecha=01/25/2026 00:00:00
+[21:22:21 INF] Métrica post_count guardada: IdGrupo=5, Valor=71
+[21:22:21 INF] Métrica guardada: IdGrupo=5, Clave=member_count, Valor=10.536, Fecha=01/25/2026 00:00:00
+[21:22:21 INF] Métrica member_count guardada: IdGrupo=5, Valor=10.536
+[21:22:21 INF] Procesamiento de grupos completado
+[21:22:21 INF] === PROCESAMIENTO COMPLETADO ===
+[21:22:21 INF] Presiona Ctrl+C para detener el worker.
