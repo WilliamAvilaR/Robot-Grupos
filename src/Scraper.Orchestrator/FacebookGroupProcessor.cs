@@ -118,7 +118,7 @@ public class FacebookGroupProcessor
                         _logger.LogWarning("No se extrajeron datos del grupo IdGrupo={IdGrupo}", group.IdGrupo);
                     }
 
-                    var today = DateTime.UtcNow.Date;
+                    var today = DateTime.Now.Date;
 
                     if (postCount.HasValue)
                     {

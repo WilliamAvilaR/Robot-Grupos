@@ -398,6 +398,15 @@ public class FacebookGroupExtractor : IPageExtractor<Dictionary<string, object>>
                         var text = await element.TextContentAsync();
                         if (!string.IsNullOrWhiteSpace(text) && text.Contains("publicaciones nuevas hoy"))
                         {
+                            // Detectar explícitamente el caso de "No hay publicaciones nuevas hoy"
+                            var textLower = text.ToLower();
+                            if (textLower.Contains("no hay publicaciones nuevas hoy") || 
+                                (textLower.Contains("no hay") && textLower.Contains("publicaciones nuevas hoy")))
+                            {
+                                _logger.LogInformation("Se detectó 'No hay publicaciones nuevas hoy', retornando 0");
+                                return 0;
+                            }
+                            
                             var count = ExtractNumberFromText(text);
                             if (count.HasValue)
                             {
